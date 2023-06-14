@@ -1,0 +1,21 @@
+{
+  "*": {
+    "type": "page"
+  },
+  "index": {
+    "title": "Home",
+    "type": "page",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw",
+      "sidebar": false,
+      "toc": true
+    }
+  },
+  "how-to-guides": {
+    "title": "How-to Guides",
+    "theme": {
+      "typesetting": "article"
+    }
+  }
+}
