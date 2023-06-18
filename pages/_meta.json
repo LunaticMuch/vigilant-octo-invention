@@ -11,11 +11,5 @@
       "sidebar": false,
       "toc": true
     }
-  },
-  "how-to-guides": {
-    "title": "How-to Guides",
-    "theme": {
-      "typesetting": "article"
-    }
   }
 }

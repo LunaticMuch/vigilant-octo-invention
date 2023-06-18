@@ -1,16 +1,3 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   reactStrictMode: true,
-// }
-
-// const withNextra = require('nextra')({
-//   theme: 'nextra-theme-docs',
-//   themeConfig: './theme.config.tsx'
-// })
- 
-// module.exports = withNextra()
-
-// module.exports = nextConfig
 import nextra from "nextra";
 
 const replaceMdxPluginNames = (node) => {
@@ -63,8 +50,4 @@ const withNextra = nextra({
 
 export default withNextra({
   reactStrictMode: true,
-  experimental: {
-    legacyBrowsers: false,
-    // default is 128KB
-    largePageDataBytes: 512 * 1000,
-  }})
+  })

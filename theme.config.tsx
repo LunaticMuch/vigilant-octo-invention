@@ -2,11 +2,11 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 
 const theme: DocsThemeConfig = {
   project: {
-    link: "https://github.com/cloudquery/cloudquery",
+    link: "https://github.com/LunaticMuch",
     icon: (
       <img
-        alt="CloudQuery Github repo stars"
-        src="https://img.shields.io/github/stars/cloudquery/cloudquery?style=social"
+        alt="A demo"
+        src=""
       />
     ),
   },
